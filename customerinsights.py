@@ -431,4 +431,7 @@ def main():
     # Save presentation
     output_file = "customer_interaction_analysis.pptx"
     presentation.prs.save(output_file)
-    print(f"Presentation saved as {output
+    print(f"Presentation saved as {output_file}")
+
+if __name__ == "__main__":
+    main()
